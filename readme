@@ -1,2 +1,9 @@
 videorunner
 
+dbsetup.py
+getfile.py
+queryfile.py
+update.py
+globalset.py
+tpl.ty
+
