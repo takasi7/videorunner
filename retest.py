@@ -16,7 +16,7 @@ def recursive(string, dic):
 		key = m.group(1)
 		lists = None
 		retpstring = ''
-		if key in dic:
+		if key in dic and type(dic[key]) is list:
 			lists = dic[key]
 		for obj in lists:
 			repstring += recursive(m.group(2),obj)
